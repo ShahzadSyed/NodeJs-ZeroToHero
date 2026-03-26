@@ -16,8 +16,18 @@ app.get('/about', (req , res)=>{
     {
         res.send("About Us")
     }
-    
-    
+})
+
+app.post('/details', (req , res) =>{
+    res.json({
+        status : true,
+        message : "Hello Shahzad!",
+        email : "test@gmail.com"
+    })
+})
+
+app.post('/latest', (req , res) =>{
+    res.send("welcome")
 })
 
 app.listen(PORT, ()=>{
