@@ -6,3 +6,4 @@ we will installl below mentioned packages..
 
 then we will env file and create a shortcut script code for running server..
 we will user npm run start instead of using nodemon index.js..
+mongodb+srv://compliancecc3_db_user:compliancecc3_db_user@cluster0.wymcnsu.mongodb.net/
