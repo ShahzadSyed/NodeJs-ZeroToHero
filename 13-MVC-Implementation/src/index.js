@@ -5,6 +5,7 @@ const authRouter = require('./Routes/authRoutes');
 
 dotenv.config()
 const app = express();
+app.use(express.json())
 
 connectDB() //conneting database
 

@@ -8,4 +8,12 @@ const successResponse = (statusCode , status , message , data ,res) =>{
     })
 }
 
-module.exports = successResponse
+const errorResponse = (statusCode , status , message ,res) =>{
+    res.status(statusCode).json({
+        status : status,
+        message : message,
+        
+    })
+}
+
+module.exports = {successResponse, errorResponse}
